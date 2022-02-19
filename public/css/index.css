@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: red;
+    height: 300px;
+}
+.link{
+    padding: 30px;
+    font-size: 8px;
+}
+.link:hover{
+    background-color: green;
+}
+#o{
+    background-color: blue;
+}
+#o:hover + #main{
+    height: 30px;
+}
+
+.add, .take{
+    background-color: #324833;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+}
+
+.counter{
+    font-size: 30px;
+}
+
+.rodapiao{
+    font-size: 40px;
+}
